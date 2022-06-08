@@ -233,10 +233,17 @@ a:hover{
 }
 
 .card-text{
-  width: 40%;
+  margin-top: auto;
+  height: 300px;
+  text-align: justify;
   font-family: sans-serif;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
+}
+
+.card-text span a{
+  color: black;
+  font-weight: bold;
 }
 
 .card-wrapper::before{
